@@ -25,7 +25,7 @@
 
 
 	 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg border-bottom py-3">
+    <nav class="navbar navbar-expand-lg border-bottom py-3 fixed-top">
         <div class="container">
             <a class="navbar-brand logo" href="#">DREF</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav mx-auto gap-3">
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" href="#landing">HOME</a>
+                        <a class="nav-link active" href="#landing">HOME</a>
                     </li>
 
                     <li class="nav-item">
@@ -59,7 +59,7 @@
     </nav>
 
     <!-- landing Section -->
-    <section class="hero py-5 border-bottom" id="landing">
+    <section class="hero py-5 border-bottom mx-3" id="landing">
         <div class="container">
 
             <div class="row align-items-center g-5">
@@ -102,7 +102,7 @@
     </section>
 
     <!-- project section -->
-    <section id="projects" class="py-5 border-bottom">
+    <section id="projects" class="py-5 border-bottom mx-3">
 	    <div class="container">
 
 	        <small class="text-uppercase text-secondary">Selected Works</small>
@@ -229,7 +229,13 @@
 	            <div class="col-md-4">
 	                <div class="project-card p-3 shadow">
 	                    <div class="placeholder-img">
-	                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+	                    	<div class="position-relative">
+		                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+
+		                    	<span class="project-badge">
+	                				Capstone
+	            				</span>
+	                    	</div>
 	                    </div>
 
 	                    <h5 class="mt-3 fw-bold">SHORT COURSE CAPSTONE</h5>
@@ -241,7 +247,13 @@
 	            <div class="col-md-4">
 	                <div class="project-card p-3 shadow">
 	                    <div class="placeholder-img">
-	                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+	                    	<div class="position-relative">
+		                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+
+		                    	<span class="project-badge">
+	                				Capstone
+	            				</span>
+	                    	</div>
 	                    </div>
 
 	                    <h5 class="mt-3 fw-bold">SHORT COURSE CAPSTONE</h5>
@@ -253,7 +265,13 @@
 	            <div class="col-md-4">
 	                <div class="project-card p-3 shadow">
 	                    <div class="placeholder-img">
-	                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+	                    	<div class="position-relative">
+		                    	<img src="./images/2.jpg" class="img-fluid rounded" alt="">
+
+		                    	<span class="project-badge">
+	                				Capstone
+	            				</span>
+	                    	</div>
 	                    </div>
 
 	                    <h5 class="mt-3 fw-bold">SHORT COURSE CAPSTONE</h5>
@@ -267,7 +285,7 @@
 	</section>
 
 	<!-- tools section -->
-	<section id="tools" class="py-5 border-bottom">
+	<section id="tools" class="py-5 border-bottom mx-3">
    	 	<div class="container">
 
         <span class="small text-uppercase text-secondary">
@@ -336,7 +354,7 @@
 	</section>
 
 	<!-- contact section -->
-	<section id="contact" class="py-5">
+	<section id="contact" class="py-5 mx-3">
     	<div class="container">
 	        <div class="row align-items-center g-5">
 
@@ -446,10 +464,16 @@
 	    </div>
 	</footer>
 
+	<!-- button top -->
+	<a href="#landing" class="button-top" id="backToTop">↑</a>
+	
+
   		
 
 	<!-- bootstrap sript -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+
+	<script src="index.js"></script>
 
 </body>
 </html>
